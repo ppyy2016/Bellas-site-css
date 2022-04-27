@@ -4,6 +4,15 @@ body {
   font-family: "Merriweather", serif;
 }
 
+hr {
+  background-color: transparent;
+  border-style: dotted none none none;
+  border-color: #05595b;
+  border-width: 7px;
+  width: 10%;
+  padding: 15px;
+}
+
 h1 {
   margin: 50px 0 0 0;
   font-family: "Sacramento", cursive;
@@ -22,7 +31,7 @@ h2 {
 h3 {
   font-family: "Montserrat", sans-serif;
   color: #05595b;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 p {
@@ -42,35 +51,45 @@ p {
 }
 
 .top-cloud {
-  position: relative;
-  left: 200px;
-  top: 10px;
+  position: fixed;
+  left: 900px;
+  top: 20px;
 }
 
 .bottom-cloud {
-  position: relative;
-  left: 100px;
+  position: fixed;
+  left: 200px;
   bottom: 300px;
 }
 
 .skill-row {
   width: 55%;
-  margin: auto auto 60px auto;
+  margin: 10px auto;
+  padding: 40px 0;
   text-align: left;
+  line-height: 2;
+}
+.img-mountain {
+  display: block;
+  margin: 0 auto;
 }
 
-.puppy {
+.img-profile {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.img-left {
   float: left;
-  width: 150px;
-  height: 150px;
-  margin: right 50px;
+  width: 35%;
+  margin-right: 30px;
 }
 
-.children {
+.img-right {
   float: right;
-  width: 150px;
-  height: 150px;
-  margin: left 50px;
+  width: 35%;
+  margin-left: 30px;
 }
 
 .bottom-container {
